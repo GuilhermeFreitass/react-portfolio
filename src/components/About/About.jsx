@@ -19,10 +19,10 @@ const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit
-                voluptatem exercitationem eius voluptatibus aliquid, sequi
-                libero porro tempora accusamus vel iusto mollitia nihil! Alias
-                cum vitae delectus consequatur? Repellendus, cum.
+                Desenvolvo interfaces funcionais e responsivas, focando em
+                usabilidade e performance. Tenho experiência com React, Next,
+                JavaScript, TypeScript e TailwindCSS, criando aplicações bem
+                estruturadas e fáceis de manter.
               </p>
             </div>
           </li>
@@ -31,10 +31,10 @@ const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
-                similique quidem eum, optio consequuntur delectus sed adipisci
-                repellendus. Nesciunt odit natus alias aspernatur obcaecati
-                consectetur architecto? Natus quisquam aperiam inventore?
+                Trabalho no desenvolvimento de APIs e sistemas eficientes,
+                utilizando NodeJS, NestJS e bancos de dados relacionais e não
+                relacionais. Busco escrever código limpo e otimizado para
+                garantir bom desempenho e escalabilidade.
               </p>
             </div>
           </li>
