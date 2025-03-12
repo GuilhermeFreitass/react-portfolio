@@ -1,26 +1,18 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "FechoFlix",
+      "imageSrc": "projects/fechoIMG.png",
+      "description": "A aplicação consiste em desenvolver uma página para listagem de filmes e a API do TMDb",
+      "skills": ["Next.js", "TypeScript", "TailwindCSS", "Ant Design", "Axios", "React Query", "React Hook Form"],
+      "demo": "https://fecho-flix.vercel.app/",
+      "source": "https://github.com/GuilhermeFreitass/FechoFlix"
     },
     {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Calculadora",
+      "imageSrc": "projects/calculadora.png",
+      "description": "Calculadora simples feita com JavaScript",
+      "skills": ["HTML", "CSS", "JavaScript"],
+      "demo": "https://calculadora-js-gold.vercel.app/",
+      "source": "https://github.com/GuilhermeFreitass/CalculadoraJS"
     }
   ]

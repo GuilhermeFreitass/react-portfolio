@@ -40,6 +40,10 @@
       "imageSrc": "skills/mongodb.png"
     },
     {
+      "title": "PostgreeSQL",
+      "imageSrc": "skills/postgreesql.png"
+    },
+    {
       "title": "Figma",
       "imageSrc": "skills/figma.png"
     }
