@@ -8,19 +8,39 @@
       "imageSrc": "skills/css.png"
     },
     {
+      "title": "JavaScript",
+      "imageSrc": "skills/javascript.png"
+    },
+    {
+      "title": "TypeScript",
+      "imageSrc": "skills/typescript.png"
+    },
+    {
+      "title": "TailwindCSS",
+      "imageSrc": "skills/tailwindcss.png"
+    },
+    {
       "title": "React",
       "imageSrc": "skills/react.png"
     },
     {
-      "title": "Node",
+      "title": "Next",
+      "imageSrc": "skills/nextjs.png"
+    },
+    {
+      "title": "NodeJS",
       "imageSrc": "skills/node.png"
+    },
+    {
+      "title": "NestJS",
+      "imageSrc": "skills/nestjs.png"
     },
     {
       "title": "MongoDB",
       "imageSrc": "skills/mongodb.png"
     },
     {
-      "title": "Next",
-      "imageSrc": "skills/nextjs.png"
+      "title": "Figma",
+      "imageSrc": "skills/figma.png"
     }
   ]
