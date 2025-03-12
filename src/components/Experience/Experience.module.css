@@ -26,7 +26,7 @@
   width: 45%;
   display: flex;
   flex-wrap: wrap;
-  gap: 11px;
+  gap: 30px;
 }
 
 .skill {
@@ -75,7 +75,7 @@
 }
 
 .historyItem img {
-  width: 50px;
+  width: 90px;
 }
 
 .historyItemDetails {
