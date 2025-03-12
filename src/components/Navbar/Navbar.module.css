@@ -1,13 +1,17 @@
 @import "../../vars.css";
 
 .navbar {
-  position: relative;
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 61px;
-  z-index: 2;
-  margin: 0 10%;
+  padding: 20px 10%;
+  z-index: 1000;
+  background-color: rgba(var(--color-bg-rgb), 0.75);
+  backdrop-filter: blur(8px);
+  transition: background-color 0.3s ease;
+  box-shadow: var(--shadow-sm);
 }
 
 .title {
@@ -15,10 +19,15 @@
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .menu {
   display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .menuItems {
@@ -28,29 +37,44 @@
 }
 
 .menuItems a {
+  position: relative;
   font-size: 25px;
   color: var(--color-text);
   text-decoration: none;
+  padding: 5px 0;
+  transition: color var(--transition-normal);
 }
 
-.menuBtn{
+.menuItems a:hover {
+  color: var(--color-primary-light);
+}
+
+.menuItems a.active {
+  color: var(--color-primary);
+}
+
+.activeIndicator {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: var(--color-primary);
+  border-radius: 3px;
+}
+
+.menuBtn {
   display: none;
 }
 
 @media screen and (max-width: 830px) {
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
+    padding: 15px 10%;
   }
 
   .menu {
-    position: absolute;
-    right: 0;
-    margin-right: 10%;
-    flex-direction: column;
-    align-items: center;
-    gap: 11px;
-    z-index: 3;
+    position: relative;
+    margin-right: 0;
   }
 
   .menuBtn {
@@ -59,24 +83,28 @@
   }
 
   .menuItems {
+    position: absolute;
+    top: 100%;
+    right: 0;
     display: none;
     flex-direction: column;
     align-items: center;
     gap: 13px;
-    border-radius: 10px;
-    background: rgb(25, 55, 109);
-    background: linear-gradient(
-      0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 109, 1) 100%
-    );
+    border-radius: var(--border-radius-md);
+    background: rgba(var(--color-bg-secondary-rgb), 0.95);
+    backdrop-filter: blur(10px);
     padding: 24px 33px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: var(--shadow-lg);
+    margin-top: 10px;
   }
 
-  .menuOpen{
+  .menuOpen {
     display: flex;
     z-index: 1;
+  }
 
+  .activeIndicator {
+    bottom: -3px;
   }
 }
+

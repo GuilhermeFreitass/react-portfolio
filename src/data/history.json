@@ -9,10 +9,10 @@
     },
     {
       "role": "Desenvolvedor Full-stack",
-      "organisation": "Mirosoft",
+      "organisation": "",
       "startDate": "Out, 2024",
       "endDate": "Abr, 2025",
-      "experiences": ["Worked on Windows 11", "Designed the control panel"],
+      "experiences": [""],
       "imageSrc": "history/logoSiag.svg"
     }
   ]

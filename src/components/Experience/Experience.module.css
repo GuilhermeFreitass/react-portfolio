@@ -13,6 +13,10 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
 }
 
 .content {
@@ -37,13 +41,20 @@
 }
 
 .skillImageContainer {
-  background-color: var(--color-secondary);
+  background-color: var(--color-bg-secondary);
   border-radius: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 120px;
   height: 120px;
+  box-shadow: var(--shadow-md);
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.skillImageContainer:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
 }
 
 .skillImageContainer img {
@@ -68,10 +79,16 @@
   flex-direction: row;
   align-items: center;
   gap: 17px;
-  background: #19376d;
-  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0.5) 100%);
-  border-radius: 10px;
+  background: var(--gradient-card);
+  border-radius: var(--border-radius-md);
   padding: 24px;
+  box-shadow: var(--shadow-md);
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.historyItem:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
 }
 
 .historyItem img {
@@ -85,11 +102,13 @@
 .historyItemDetails h3 {
   font-size: 30px;
   font-weight: 500;
+  color: var(--color-primary-light);
 }
 
-.historyItemDetails h3 {
+.historyItemDetails p {
   font-size: 20px;
   font-weight: 300;
+  color: var(--color-text-secondary);
 }
 
 .historyItemDetails ul {
@@ -98,6 +117,7 @@
   font-size: 25px;
   list-style-type: disc;
   margin-left: 17px;
+  color: var(--color-text-secondary);
 }
 
 @media screen and (max-width: 830px) {
@@ -117,7 +137,5 @@
     width: 100%;
     gap: 9px;
   }
-
-  
-  
 }
+

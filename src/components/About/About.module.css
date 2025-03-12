@@ -2,13 +2,14 @@
 
 .container {
   position: relative;
-  background-color: rgba(12, 12, 12, 0.6);
-  border-radius: 15px;
+  background-color: var(--color-bg-secondary);
+  border-radius: var(--border-radius-xl);
   padding: 73px;
   margin-top: 129px;
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
+  box-shadow: var(--shadow-lg);
 }
 
 .title {
@@ -17,6 +18,10 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
 }
 
 .content {
@@ -40,51 +45,49 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  border-radius: 20px;
+  border-radius: var(--border-radius-lg);
   list-style: none;
   padding: 25px;
-  background-image: linear-gradient(
-    90deg,
-    rgba(165, 215, 232, 0.42) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background-image: var(--gradient-hover);
   background-size: 0 100%;
   background-repeat: no-repeat;
-    transition: 0.4s;
+  transition: background-size var(--transition-normal);
 }
 
 .aboutItem:hover {
   background-size: 100% 100%;
-  transition: background-size 0.5s;
 }
 
-.aboutItem h3{
-    fontsize: 25px;
-    font-weight: 600;
-
+.aboutItem h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--color-primary-light);
 }
 
-.aboutItem p{
-    fontsize: 25px;
+.aboutItem p {
+  font-size: 25px;
+  color: var(--color-text-secondary);
 }
 
-@media screen and (max-width: 830px){
-    .container{
-        background-color: transparent;
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .content{
-        flex-direction: column;
-    }
-    .aboutImage{
-        display: none;
-    }
-    .aboutItems{
-        margin-top: 29px;
-    }
-    .aboutItem{
-        padding-left: 0;
-        padding-right: 0;
-    }
+@media screen and (max-width: 830px) {
+  .container {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+    box-shadow: none;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .aboutImage {
+    display: none;
+  }
+  .aboutItems {
+    margin-top: 29px;
+  }
+  .aboutItem {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
+

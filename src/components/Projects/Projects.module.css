@@ -12,6 +12,10 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
 }
 
 .projects {
@@ -20,7 +24,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 15px;
   width: 100%;
 }
+

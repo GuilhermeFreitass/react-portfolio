@@ -3,26 +3,35 @@
 .container {
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
-  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
-  box-shadow: 0 16px 14px 0 #04152d;
+  border-radius: var(--border-radius-lg);
+  background: var(--gradient-card);
+  box-shadow: var(--shadow-md);
   padding: 18px 24px;
   max-width: 345px;
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.container:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-lg);
 }
 
 .image {
   margin-bottom: 26px;
+  border-radius: var(--border-radius-md);
 }
 
 .title {
   font-size: 25px;
   font-weight: 700;
+  color: var(--color-primary-light);
 }
 
 .description {
   margin-top: 6px;
   font-size: 25px;
   font-weight: 400;
+  color: var(--color-text-secondary);
 }
 
 .skills {
@@ -41,6 +50,7 @@
   border-radius: 100px;
   background: var(--color-dark);
   padding: 2px 22px;
+  color: var(--color-text-secondary);
 }
 
 .links {
@@ -56,6 +66,13 @@
   font-size: 30px;
   font-weight: 600;
   border-radius: 100px;
-  background: var(--color-primary);
+  background: var(--gradient-primary);
   padding: 1px 22px;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
 }
+
+.link:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
