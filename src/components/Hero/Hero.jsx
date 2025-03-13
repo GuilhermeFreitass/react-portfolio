@@ -10,7 +10,7 @@ const hero = () => {
         <p className={styles.description}>Sou um Desenvolvedor FullStack graduando em Engenharia de Computação pela Universidade Federal de Sergipe.</p>
         <a href="#contact" className={styles.contactBtn}>Contate-me</a>
       </div>
-      <img src={getImageUrl("hero/heroImage2.png")} alt="" className={styles.heroImg}/>
+      <img src={getImageUrl("hero/heroImage.PNG")} alt="" className={styles.heroImg}/>
       <div className={styles.topBlur}></div>
       <div className={styles.bottomBlur}></div>
       
