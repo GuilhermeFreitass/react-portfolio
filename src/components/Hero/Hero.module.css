@@ -45,7 +45,8 @@
   font-weight: 600;
   padding: 17px 26px;
   box-shadow: var(--shadow-md);
-  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+  transition: transform var(--transition-normal),
+    box-shadow var(--transition-normal);
 }
 
 .contactBtn:hover {
@@ -103,15 +104,58 @@
 }
 
 @media screen and (max-width: 830px) {
-  .heroImg {
-    width: 50%;
-  }
-
   .container {
     flex-direction: column-reverse;
+    margin-top: 30px;
+    text-align: center;
   }
+
   .content {
     align-items: center;
+    margin-top: 30px;
+  }
+
+  .title {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .heroImg {
+    width: 80%;
+    max-width: 400px;
+  }
+
+  .contactBtn {
+    font-size: 24px;
+    padding: 14px 22px;
   }
 }
 
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 36px;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+
+  .heroImg {
+    width: 90%;
+  }
+
+  .contactBtn {
+    font-size: 20px;
+    padding: 12px 20px;
+  }
+
+  .topBlur,
+  .bottomBlur {
+    display: none;
+  }
+}
