@@ -8,6 +8,14 @@
       "source": "https://github.com/GuilhermeFreitass/FechoFlix"
     },
     {
+      "title": "Landing Page",
+      "imageSrc": "projects/landingPage.png",
+      "description": "Uma landing page desenvolvida para a Dra. Adriana Ribeiro, médica psiquiatra especializada em Psiquiatria Geral e da Infância e Adolescência.",
+      "skills": ["React", "TypeScript"],
+      "demo": "https://adrianapsiquiatra.com/",
+      "source": ""
+    },
+    {
       "title": "Calculadora",
       "imageSrc": "projects/calculadora.png",
       "description": "Calculadora simples feita com JavaScript",

@@ -12,7 +12,7 @@
       "organisation": "UFS",
       "startDate": "Out, 2024",
       "endDate": "Abr, 2025",
-      "experiences": ["Developed the website"],
+      "experiences": ["Um sistema web responsivo feito em ReactJs e NestJs para auxiliar os professores da UFS na hora de lançar e gerenciar notas dos alunos."],
       "imageSrc": "history/logoSiag.svg"
     }
   ]
