@@ -22,5 +22,13 @@
       "skills": ["HTML", "CSS", "JavaScript"],
       "demo": "https://calculadora-js-gold.vercel.app/",
       "source": "https://github.com/GuilhermeFreitass/CalculadoraJS"
+    },
+    {
+      "title": "Quadro Kanban",
+      "imageSrc": "projects/kanban.png",
+      "description": "Um quadro Kanban para organização de tarefas",
+      "skills": ["React","Vite", "TypeScript", "Radix UI"],
+      "demo": "https://react-kanban-psi.vercel.app/",
+      "source": "https://github.com/GuilhermeFreitass/react-kanban"
     }
   ]
