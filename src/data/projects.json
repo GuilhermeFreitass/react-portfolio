@@ -1,5 +1,24 @@
 [
     {
+      "title": "SIEHP",
+      "imageSrc": "projects/siehp.png",
+      "description": "Plataforma de ensino tipo Google Classroom para professores de Histologia e Patologia da UFS: gestão e estudo de lâminas e diagnósticos.",
+      "skills": [
+        "Next.js",
+        "React",
+        "NestJS",
+        "TypeScript",
+        "Prisma",
+        "React Query",
+        "Zustand",
+        "Tailwind CSS",
+        "JWT",
+        "AWS S3"
+      ],
+      "demo": "",
+      "source": ""
+    },
+    {
       "title": "FechoFlix",
       "imageSrc": "projects/fechoIMG.png",
       "description": "A aplicação consiste em desenvolver uma página para listagem de filmes e a API do TMDb",
@@ -14,21 +33,5 @@
       "skills": ["React", "TypeScript"],
       "demo": "https://adrianapsiquiatra.com/",
       "source": ""
-    },
-       {
-      "title": "Quadro Kanban",
-      "imageSrc": "projects/kanban.png",
-      "description": "Um quadro Kanban para organização de tarefas",
-      "skills": ["React","Vite", "TypeScript", "Radix UI"],
-      "demo": "https://react-kanban-psi.vercel.app/",
-      "source": "https://github.com/GuilhermeFreitass/react-kanban"
-    },
-    {
-      "title": "Calculadora",
-      "imageSrc": "projects/calculadora.png",
-      "description": "Calculadora simples feita com JavaScript",
-      "skills": ["HTML", "CSS", "JavaScript"],
-      "demo": "https://calculadora-js-gold.vercel.app/",
-      "source": "https://github.com/GuilhermeFreitass/CalculadoraJS"
     }
   ]
